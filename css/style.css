@@ -1,0 +1,474 @@
+body {
+    background: url("../images/background.jpg") repeat scroll 0 0 #525252;
+    color: #FFFFFF;
+    font-family: impact;
+    font-size: 13px;
+    margin: 0;
+}
+img {
+    border: medium none;
+}
+h4 {
+    color: #00AEFF;
+    font-family: impact;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 3px;
+    text-transform: uppercase;
+}
+h3 {
+    color: #00AEFF;
+    font-family: impact;
+    font-size: 20px;
+    margin: 0 0 10px;
+    padding: 0;
+}
+input, textarea {
+    border: 1px solid #ABABAB;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+}
+h2 {
+    border-bottom: 1px solid #ABABAB;
+    color: #00AEFF;
+    font-family: impact;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+h1 {
+    border-bottom: 1px solid #0072BC;
+    color: #00AEFF;
+    font-family: impact;
+    font-size: 25px;
+    padding: 10px;
+    text-shadow: 0 0 5px #EFEFEF;
+}
+#content a {
+    color: #47B866;
+}
+#relatedContent {
+    border: 1px solid #EFEFEF;
+    float: right;
+    padding: 10px;
+    width: 200px;
+}
+#relatedContent a {
+    display: block;
+    margin-bottom: 5px;
+}
+.eventHolder {
+    float: left;
+    width: 820px;
+}
+#latestPosts .postingHolder {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    width: 240px;
+}
+#latestPosts .postingHolder h2 {
+    margin-bottom: 10px;
+}
+#latestPosts .postingHolder a {
+    background: none repeat scroll 0 0 #47B866;
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    font-size: 11px;
+    margin-top: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.eventHolder a {
+    color: #47B866;
+}
+.adminTable {
+    border: 1px solid #EFEFEF;
+    width: 100%;
+}
+.adminTable th {
+    background: none repeat scroll 0 0 #EFEFEF;
+    text-align: left;
+}
+.adminTable a {
+    color: #000000;
+}
+.adminTable td {
+    border-bottom: 1px solid #EFEFEF;
+}
+.adminNav a {
+    color: #FFFFFF;
+}
+.adminNav {
+    background: none repeat scroll 0 0 #000000;
+    padding: 10px;
+}
+.clear {
+    clear: both;
+}
+.rowHolder {
+    border-bottom: 1px solid #ABABAB;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.moreLink {
+    background: none repeat scroll 0 0 #ABABAB;
+    float: right;
+    font-size: 12px;
+    padding: 5px;
+}
+.contentHolder {
+    color: #FFFFFF;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 2px;
+    width: 226px;
+}
+#contentHolder {
+    float: left;
+    padding: 10px;
+    width: 800px;
+}
+#contentHolder input, #contentHolder textarea {
+    width: 100%;
+}
+#contentHolder .submit {
+    margin: 10px auto 0 8px;
+}
+#contentHolder .title {
+    font-size: 30px;
+}
+#userContentHolder {
+    clear: both;
+}
+.userContentHolder {
+    color: #FFFFFF;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 2px;
+    width: 165px;
+}
+.contentHolder a {
+    color: #FFFFFF;
+}
+#userinfo {
+    margin-bottom: 20px;
+}
+#sidebar {
+    background: none repeat scroll 0 0 #525252;
+    height: 80%;
+    left: -60px;
+    margin-right: 10px;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+}
+.calendar {
+    float: right;
+    text-transform: uppercase;
+    width: 255px;
+}
+.calendar h2 {
+    font-size: 20px;
+    margin: 14px;
+    padding: 0;
+}
+.calendar .calendarEvent {
+    color: #000000;
+    font-size: 10px;
+    padding: 10px;
+    text-transform: lowercase;
+}
+.calendar .event, .calendar .music, .calendar .fashion, .calendar .movie, .calendar .award, .calendar .article {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+}
+.calendar #event, .calendar #music, .calendar #fashion, .calendar #movie, .calendar #award {
+    background: none repeat scroll 0 0 #EFEFEF;
+    border-radius: 10px 10px 10px 10px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 0;
+    margin: 5px;
+    overflow: hidden;
+    padding: 0;
+}
+.featuredContentHolder {
+    color: #FFFFFF;
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    overflow: hidden;
+    padding: 2px;
+    position: absolute;
+    width: 555px;
+}
+.featuredContentHolder .description {
+    background: none repeat scroll 0 0 #525252;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 240px;
+    z-index: 100;
+}
+.featuredContentHolder img {
+    width: 100%;
+    z-index: 0;
+}
+.featuredContentHolder .title {
+    background: none repeat scroll 0 0 #000000;
+    color: #00AEFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 206px;
+    z-index: 100;
+}
+.calendar #event a, .calendar #music a, .calendar #fashion a, .calendar #movie a, .calendar #award a {
+    color: #ABABAB;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.featured {
+    float: left;
+    width: 540px;
+}
+.topRow {
+    height: 310px;
+    width: 100%;
+}
+.contentHolder {
+    width: 560px;
+}
+.contentHolder img {
+    width: 100%;
+    z-index: 0;
+}
+.contentHolder .title {
+    background: none repeat scroll 0 0 #000000;
+    color: #00AEFF;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 10px;
+    position: absolute;
+    top: 206px;
+    z-index: 100;
+}
+#eventHolder {
+    float: left;
+    width: 825px;
+}
+.contentHolder .description {
+    background: none repeat scroll 0 0 #ABABAB;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    position: absolute;
+    top: 250px;
+    z-index: 100;
+}
+#content {
+    margin: 0 auto;
+    position: relative;
+    width: 1050px;
+}
+@font-face {
+    font-family: "impact";
+    src: url("../images/FUTURAL.TTF");
+}
+#logo {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 0 0 10px 10px;
+    color: #FFFFFF;
+    float: left;
+    font-family: impact;
+    font-size: 30px;
+    margin-right: 20px;
+    padding: 10px 0 30px;
+}
+#logo ul, #logo ul li {
+    border-bottom: 1px dotted #EFEFEF;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#logo ul li ul li, #logo ul li ul li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #000000;
+    text-transform: none;
+}
+#logo a {
+    clear: both;
+    color: #FFFFFF;
+    display: block;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+#search input {
+    background: none repeat scroll 0 0 #FF6600;
+    border: medium none;
+    color: #FFFFFF;
+    padding: 5px;
+}
+#search form {
+    float: right;
+}
+#nav {
+    background: none repeat scroll 0 0 #9E9E9E;
+    float: left;
+    font-family: impact;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+#search {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 0 0 10px 10px;
+    clear: both;
+    padding: 2px;
+}
+.userNav {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.userNav a {
+    color: #525252;
+    font-family: impact;
+    font-size: 30px;
+    margin-right: 20px;
+}
+#nav a {
+    color: #FFFFFF;
+    padding: 10px;
+    text-decoration: none;
+}
+.comment {
+    background: none repeat scroll 0 0 #000000;
+    clear: both;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.userHolder {
+    color: #4B4B4B;
+    float: left;
+    margin: 7px;
+    padding: 2px;
+}
+.userHolder .imgHolder {
+    border: 1px solid #004986;
+    float: left;
+    height: 80px;
+    margin-right: 10px;
+    overflow: hidden;
+    padding: 2px;
+    width: 122px;
+}
+.userHolder a {
+    color: #4B4B4B;
+}
+.userHolder .userInfo {
+    float: left;
+    font-size: 11px;
+    width: 128px;
+}
+.userHolder .userInfoJava {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid #525252;
+    box-shadow: 0 1px 10px #ABABAB;
+    display: none;
+    margin: 20px;
+    padding: 10px;
+    position: absolute;
+}
+.comment a {
+    color: #FFFFFF;
+}
+.overlay {
+    background: none repeat scroll 0 0 #000000;
+    left: 150px;
+    padding: 10px;
+    position: fixed;
+    top: 30px;
+    z-index: 100;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.projecttext {
+    color: #003D49;
+    float: left;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 200px;
+}
+.projectimg {
+    float: left;
+    height: 300px;
+    margin-right: 10px;
+    width: 546px;
+}
+.projectthumbs {
+    float: left;
+    height: 475px;
+    margin-top: 15px;
+    width: 205px;
+}
+.projthumb {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 79px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 5px;
+    width: 174px;
+}
+#contentNav {
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+    margin-bottom: 10px;
+}
+#contentNav .selected {
+    background: none repeat scroll 0 0 #000000;
+    color: #FFFFFF;
+}
+#contentNav a {
+    color: #000000;
+    display: block;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+}
+#footer {
+    background: none repeat scroll 0 0 #000000;
+    clear: both;
+    padding: 25px 10px 10px;
+}
+#footer a {
+    color: #ABABAB;
+    font-size: 13px;
+    padding: 10px;
+}
