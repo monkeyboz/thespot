@@ -2,10 +2,10 @@
 	echo 'testing';
 	
   class db {
-    var $username = 'monkeyboz';
-    var $password = 'ntisman1';
-    var $server = 'localhost';
-    var $database = 'yourstruly';
+    var $username = '';
+    var $password = '';
+    var $server = '';
+    var $database = '';
     var $connect;
 	var $title;
     var $contents = '';
